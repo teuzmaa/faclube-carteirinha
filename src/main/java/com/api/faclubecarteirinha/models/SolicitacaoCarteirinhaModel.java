@@ -124,4 +124,8 @@ public class SolicitacaoCarteirinhaModel implements Serializable {
     public void setEnderecoEstado(String enderecoEstado) {
         this.enderecoEstado = enderecoEstado;
     }
+
+    public void setCpf(String cpf) {
+        this.CPF = CPF;
+    }
 }
